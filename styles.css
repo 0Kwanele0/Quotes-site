@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+}
+
+body {
+    max-width: 100vw;
+    background-color: #e4e4e4;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    max-width: 100vw;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.6rem;
+    flex-direction: column;
+
+}
+
+.the-div {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    color: #404352;
+    align-items: center;
+    height: 200px;
+    width: 300px;
+    padding: 40px;
+    border-radius: 94px;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+    transition: all 0.5s;
+}
+h5 {
+    color:#1f76af34;
+}
+
+.btns button{
+    margin-top: 30px;
+    border: 1px solid #1f76af34;
+    padding: 12px 20px;
+    border-radius: 94px;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+    transition: all 0.3s;
+    
+
+}
+
+.btns button:hover{
+    border-radius: 94px;
+    background: #e0e0e0;
+    box-shadow: inset 20px 20px 60px #dbdbdb,
+            inset -20px -20px 60px #ffffff;
+}
+.the-div:hover{
+    border-radius: 94px;
+    background: #e0e0e0;
+    box-shadow: inset 20px 20px 60px #bebebe,
+            inset -20px -20px 60px #ffffff;
+}
+
+@media screen and (max-width: 700px){
+    .the-div{
+        font-size: 1.2rem;
+        height: 190px;
+        width: 190px;
+    }
+    
+}
